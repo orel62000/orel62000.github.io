@@ -9,14 +9,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <!-- end google fonts -->
-  <link rel="icon" type="image/svg+xml" href="../assets/img/logo.png">
+  <link rel="icon" type="image/svg+xml" href="../assets/img/logo1.png">
   <link rel="stylesheet" href="../dist/output.css">
-  <title>Notre Patrimoine</title>
+  <title>Contact</title>
 </head>
 <body>
   <header class="f-header relative js-f-header">
     <div class="f-header__mobile-content w-[calc(100%_-_2.5rem)] lg:w-[calc(100%_-_4rem)] mx-auto max-w-7xl">
       <a href="index.html" class="f-header__logo">
+        <svg width="104" height="30" viewBox="0 0 104 30"><title>Go to homepage</title><path d="M37.54 24.08V3.72h4.92v16.37h8.47v4zM60.47 24.37a7.82 7.82 0 01-5.73-2.25 8.36 8.36 0 01-2-5.62 8.32 8.32 0 012.08-5.71 8 8 0 015.64-2.18 8.07 8.07 0 015.68 2.2 8.49 8.49 0 012 5.69 8.63 8.63 0 01-1.78 5.38 7.6 7.6 0 01-5.89 2.49zm0-3.67c2.42 0 2.73-3 2.73-4.23s-.31-4.26-2.73-4.26-2.79 3-2.79 4.26.32 4.23 2.82 4.23zM95.49 24.37a7.82 7.82 0 01-5.73-2.25 8.36 8.36 0 01-2-5.62 8.32 8.32 0 012.08-5.71 8.4 8.4 0 0111.31 0 8.43 8.43 0 012 5.69 8.6 8.6 0 01-1.77 5.38 7.6 7.6 0 01-5.89 2.51zm0-3.67c2.42 0 2.73-3 2.73-4.23s-.31-4.26-2.73-4.26-2.8 3-2.8 4.26.31 4.23 2.83 4.23zM77.66 30c-5.74 0-7-3.25-7.23-4.52l4.6-.26c.41.91 1.17 1.41 2.76 1.41a2.45 2.45 0 002.82-2.53v-2.68a7 7 0 01-1.7 1.75 6.12 6.12 0 01-5.85-.08c-2.41-1.37-3-4.25-3-6.66 0-.89.12-3.67 1.45-5.42a5.67 5.67 0 014.64-2.4c1.2 0 3 .25 4.46 2.82V8.81h4.85v15.33a5.2 5.2 0 01-2.12 4.32A9.92 9.92 0 0177.66 30zm.15-9.66c2.53 0 2.81-2.69 2.81-3.91s-.31-4-2.81-4-2.81 2.8-2.81 4 .27 3.91 2.81 3.91zM55.56 3.72h9.81v2.41h-9.81z" class="fill-contrast-higher"/><circle cx="15" cy="15" r="15" class="fill-primary"/></svg>
       </a>
   
       <button class="reset anim-menu-btn js-anim-menu-btn f-header__nav-control js-tab-focus" aria-label="Toggle menu">
@@ -54,6 +55,7 @@
 
         </ul>
     
+      
         <ul class="f-header__list grow basis-0 lg:justify-end">
           <li class="f-header__item">
             <a href="https://twitter.com/RomcsR" class="f-header__link f-header__link--icon" aria-label="Follow us on Twitter">
@@ -80,87 +82,94 @@
     </div>
   </header>
 
-  <article class="py-12 lg:py-20">
-    <header class="w-[calc(100%_-_2.5rem)] lg:w-[calc(100%_-_4rem)] mx-auto max-w-xl mb-8 lg:mb-12">
-      <div class="text-component text-center leading-normal text-space-y-md mb-5 lg:mb-8">
-        <h1>Notre Patrimoine</h1>
-        <p class="text-contrast-medium text-lg lg:text-2xl">Decouvrez le patrimoine materielle et immaterielle d'AlderWebSecure</p>
+  <section class="contact relative z-1 py-12 lg:py-20">
+    <div class="w-[calc(100%_-_2.5rem)] lg:w-[calc(100%_-_4rem)] mx-auto max-w-7xl">
+      <div class="mb-8 lg:mb-12">
+        <h1 class="text-center">Nous contacter</h1>
       </div>
   
-      <div class="flex justify-center">
-        <div class="author author--meta">
-          <a href="#0" class="author__img-wrapper">
-            <img src="../assets/img/sam.jpg" alt="Author picture">
-          </a>
-  
-          <div class="author__content text-component text-space-y-xxs">
-            <h4 class="text-base lg:text-xl"><a href="#0" rel="author">Samuel Thompson</a></h4>
-            <p class="text-sm lg:text-base text-contrast-medium"><time> 9 decembre</time> &mdash; 3 min lecture</p>
-          </div>
+      <div class="grid grid-cols-12 gap-y-8 lg:gap-12">
+        <div class="col-span-12 lg:col-span-6">
+          <dl class="details-list details-list--rows">
+            <div class="details-list__item py-5 lg:py-8 lg:flex lg:justify-between">
+              <dt class="font-bold mb-1.5 lg:mb-0">Adresse</dt>
+              <dd class="leading-snug lg:text-right">
+                8 rue de chateau<br>11320 <br>France , soupex
+              </dd>
+            </div>
+          
+            <div class="details-list__item py-5 lg:py-8 lg:flex lg:justify-between">
+              <dt class="font-bold mb-1.5 lg:mb-0">Email</dt>
+              <dd>
+                <a href="mailto:webmaster@example.com">AdrienWils@alderCorp.fr</a>
+              </dd>
+            </div>
+          
+            <div class="details-list__item py-5 lg:py-8 lg:flex lg:justify-between">
+              <dt class="font-bold mb-1.5 lg:mb-0">Telephone</dt>
+              <dd class="leading-snug lg:text-right">
+                <p><a href="tel:+44 7656 6455">07 82 79 01 98</a></p>
+                <p class="text-contrast-medium">Lundi - Vendredi, 8h - 17h</p>
+              </dd>
+            </div>
+          </dl>
         </div>
-      </div>
-    </header>
   
-    <figure class="w-[calc(100%_-_2.5rem)] lg:w-[calc(100%_-_4rem)] mx-auto max-w-7xl mb-8 lg:mb-12">
-    </figure>
-  
-    <div class="w-[calc(100%_-_2.5rem)] lg:w-[calc(100%_-_4rem)] mx-auto max-w-lg md:max-w-3xl">
-      <div class="text-component article js-sticky-sharebar-target js-reading-content">
-        <p>Dans le cadre de cet article , nous verrons l'ensemble du patrimoine<a href="#0"> materiel et immaterielle </a>que compose l'entreprise SARL AlderWebSecure.</p>
-      
-        <p></p>
-      
-        <h2>Le patrimoine Matériel</h2>
-      
-        <p>Le patrimoine matériel de notre entreprise  se concentre principalement  sur notre local contenant ainsi ,une vingtaine  de postes informatiques reliés à une infrastructure réseau  tel que nos 20 baies de brassages qui réunissent nos 50 servers dans toute l'Europe.</p>
-      
-        <blockquote>Notre siège sociale se situe à Soupex dans l'Aude en France. D'ici 2025 une nouvelle infrastructure pouvant héberger plusieurs nouveaux serveurs sera construite  à Turin en Italie. </blockquote>
-      
-        <p>De plus, nous travaillons sur un projet d'immersion de conteneurs contenant de nouveaux serveurs sous la mer au large des côtes Françaises, dans l'Atlantique. ce qui permettra de pouvoir accroître nos biens, pour toujours plus évoluer. </p>
-      
-      
-      
-      
-        <h2>Notre patrimoine immaterielle</h2>
-
-        <ol class="list list--ol">
-          <p>L'entreprise AlderWebSecure dispose d'un patrimoine Immatériel regroupant un ensemble précis d'informations et de connaissances propres à l'entreprise qui s'applique à employer des méthodes uniques dans l'innovation, la recherche et la conception de ses produits numériques.</p>
-
-          
-            <p>Le patrimoine immatériel de AlderWebSecure se compose également d'importantes bases de données regroupant les informations stockées des utilisateurs tout en restant conforme aux normes du RGPD.</p>
-
-            <ol class="list list--ol">
-              <p>L'entreprise inclut également dans son patrimoine immatériel son histoire et ses méthodes de gestion de la relation client, ses brevets et droits d'auteurs déposés par l'entreprise composant la propriété industrielle de AlderWebSecure . 
-              </p>
-              <blockquote>Le nom de domaine AlderWebSecure, ainsi que les droits d'auteurs concernant les textes, images et sons de l'entreprise font également partie intégrante de notre entreprise</blockquote>
-
-
-          
-      
-        <hr>
-      
-      
-      
-      
-      
-   
-      
-      
-      
-      
-        <div class="mb-5 lg:mb-6 2xl:w-[calc(100%_+_10.5em)] 2xl:ml-[-5.25em]">
-          <div class="grid grid-cols-12 gap-2 lg:gap-3">
-          
-          </div>
-        </div>
-      
-  
-      
-        <p>Voici l'integralité du patrimoine d'AlderWebSecure aussi bien sur le plan materiel qu'immaterielle.</p>
+        <div role="application" class="google-maps rounded col-span-12 lg:col-span-6 lg:h-auto lg:pb-0 js-google-maps" data-coordinates="51.5658015,-0.40339"><!-- Google Map --></div>
       </div>
     </div>
-  </article>
+  </section>
+  <!-- 
+    ⚠️ Make sure to include the Google Maps script right before your page body closing tag
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initGoogleMap"></script> 
+    Replace 'YOUR_API_KEY' with your google maps API key
+  -->
 
+  <section class="relative z-1 py-20 lg:py-32" data-theme="dark">
+    <div class="w-[calc(100%_-_2.5rem)] lg:w-[calc(100%_-_4rem)] mx-auto max-w-3xl relative z-2">
+      <div class="text-component text-center mb-12 lg:mb-20">
+        <h1>AlderWebSecure</h1>
+        <p class="text-contrast-medium">vous souhaite une agreable experience aupres de nos services !</p>
+      </div>
+
+     
+    </div>
+
+    <figure class="bg-decoration z-1" aria-hidden="true">
+      <svg class="bg-decoration__svg text-contrast-low" viewBox="0 0 1920 450" fill="none">
+        <circle class="mix-blend-overlay" opacity="0.5" cx="1745" cy="159" r="175" fill="url(#bg-decoration-v1-fx-4-radial-1)" />
+        <circle opacity="0.5" r="65" transform="matrix(-1 0 0 1 240 110)" fill="url(#bg-decoration-v1-fx-4-radial-2)" />
+        <g opacity="0.5" filter="url(#bg-decoration-v1-fx-4-filter-1)">
+          <circle r="26" transform="matrix(-1 0 0 1 298 386)" class="fill-primary" />
+        </g>
+        <circle class="mix-blend-overlay" opacity="0.5" cx="1470" cy="-299" r="439" fill="url(#bg-decoration-v1-fx-4-radial-3)" />
+        <defs>
+          <filter id="bg-decoration-v1-fx-4-filter-1" x="267" y="355" width="62" height="62" filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+            <feGaussianBlur stdDeviation="2.5" result="effect1_foregroundBlur" />
+          </filter>
+          <radialGradient id="bg-decoration-v1-fx-4-radial-1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+            gradientTransform="translate(1745 159) rotate(90) scale(175)">
+            <stop stop-color="hsl(var(--color-primary))" stop-opacity="0" />
+            <stop offset="1" stop-color="hsl(var(--color-primary))" />
+          </radialGradient>
+          <radialGradient id="bg-decoration-v1-fx-4-radial-2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="scale(65)">
+            <stop stop-color="hsl(var(--color-accent))" stop-opacity="0"/>
+            <stop offset="1" stop-color="hsl(var(--color-accent))"/>
+          </radialGradient>
+          <radialGradient id="bg-decoration-v1-fx-4-radial-3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+            gradientTransform="translate(1470 -299) rotate(90) scale(439)">
+            <stop stop-color="hsl(var(--color-accent))" stop-opacity="0" />
+            <stop offset="1" stop-color="hsl(var(--color-accent))" />
+          </radialGradient>
+        </defs>
+      </svg>
+    </figure>
+  </section>
+
+  <!-- notice banner -->
   <footer class="main-footer relative z-1 pt-12 lg:pt-20">
     <div class="w-[calc(100%_-_2.5rem)] lg:w-[calc(100%_-_4rem)] mx-auto max-w-7xl">
       <div class="grid grid-cols-12 gap-y-8 lg:gap-12">
@@ -247,5 +256,6 @@
   </footer>
 <script src="https://unpkg.com/codyhouse-framework/main/assets/js/util.js"></script>
   <script src="js/components.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?callback=initGoogleMap"></script>
 </body>
 </html>
